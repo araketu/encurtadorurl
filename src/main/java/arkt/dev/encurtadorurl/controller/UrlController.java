@@ -51,7 +51,9 @@ public class UrlController {
 
             return ResponseEntity.status(HttpStatus.FOUND).headers(headers).build();
         } else {
+
             return ResponseEntity.notFound().build();
+
         }
     }
 }
