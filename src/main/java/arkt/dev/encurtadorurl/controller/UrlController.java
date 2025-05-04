@@ -15,6 +15,7 @@ import java.net.URI;
 import java.time.LocalDateTime;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:8086")
 public class UrlController {
 
     private final UrlRepository urlRepository;
